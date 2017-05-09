@@ -1,0 +1,151 @@
+
+:root{ 
+/* -------- COLORS ---------
+/*Primary Blues*/
+--primeLight: #ff608f;
+--primeMedium: #e81e62;
+--primeDark: #af0039;
+
+/*Secondary */
+--secondLight: #62a3ff;
+--secondMedium: #1675d1;
+--secondDark: #004a9f;
+
+/*Grays*/
+--footerGray: #F5F5F5;
+
+
+/* --------- Page Margins ----------- */
+--leftSide: 20px;
+}
+
+body{
+	background-color: var(--primeLight);
+}
+
+.border {
+	background-color: var(--primeMedium);
+	position: absolute;
+}
+
+#bTop, #bBottom {
+	height:15px;
+	width: 100%;
+}
+	#bTop { top: 0; }
+	#bBottom { bottom: 0; }
+
+#bLeft, #bRight {
+	width: 15px;
+	height: 100vh;
+	position: absolute;
+}
+	#bLeft { left: 0; }
+	#bRight { right: 0; }
+
+.noSelect
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+.alert
+{
+	margin: 20px;
+}
+
+h1 
+{
+	font-family: 'Cormorant Unicase', serif;
+}
+
+h6
+{
+	font-family: 'Cormorant Infant', serif;
+}
+
+#jpLogoWhite.png
+
+#navbar
+{
+	position: absolute;
+}
+
+#interface
+{
+	postition: fixed;
+}
+
+#icon
+{
+	position: fixed;
+	margin-top: 20px;
+	margin-left: var(--leftSide);
+}
+
+#scrollNotice
+{
+	position: fixed;
+	margin-top: 85vh;
+	text-align: center;
+	font-family: 'Cormorant Unicase', serif;
+	width: 100%;
+	font-size: 18px;
+}
+
+#title-block
+{
+	text-align: center;
+	width: 100vw;
+	margin-top: 35vh;
+	padding-right: 30px;
+	padding-left: 30px;
+	vertical-align: center;
+	position: fixed;
+}
+
+
+}
+
+#summary{
+	padding-top: 20px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+#topSpace {
+	margin-left: 120px;
+	padding-bottom: 60p;
+}
+
+#lobby {
+	margin-top: 80px;
+}
+
+#intro{
+	background-color: var(--primeDark);
+	height: 80px;
+}
+
+#crDate
+{
+	font-family: 'Cormorant Infant', serif;
+}
+
+#footer
+{
+	background-color: var(--footerGray);
+	height: 150px;
+	bottom: 0
+	width: 100%;
+}
+
+#parralax
+{
+	background-color: var(--primeDark);
+	
+}
